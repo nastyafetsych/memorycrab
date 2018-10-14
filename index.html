@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Игра</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="jquery.js"></script>
+</head>
+<body>
+<section class="game">
+  <section class="main" id="start">
+    <center>
+      <h1 class="head">Помогите забывчивому Крабу</h1>
+      <h3>Осьминог снова разлучил друзей-близнецов Краба. Помогите им найтись!</h3>
+      <img src="img/main.svg">
+      <br>
+      <button name="startbutton" id="button">
+        РИСКНУТЬ
+      </button>
+    </center>
+  </section>
+  <section class="memory-game" id="game" style="display:none">
+    <div class="memory-card" data-framework="1">
+      <img class="front-face" src="img/1.svg" alt="1" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+    <div class="memory-card" data-framework="1">
+      <img class="front-face" src="img/1.svg" alt="1" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+
+    <div class="memory-card" data-framework="2">
+      <img class="front-face" src="img/2.svg" alt="2" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+    <div class="memory-card" data-framework="2">
+      <img class="front-face" src="img/2.svg" alt="2" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+
+    <div class="memory-card" data-framework="3">
+      <img class="front-face" src="img/3.svg" alt="3" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+    <div class="memory-card" data-framework="3">
+      <img class="front-face" src="img/3.svg" alt="3" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+
+    <div class="memory-card" data-framework="4">
+      <img class="front-face" src="img/4.svg" alt="4" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+    <div class="memory-card" data-framework="4">
+      <img class="front-face" src="img/4.svg" alt="4" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+
+    <div class="memory-card" data-framework="5">
+      <img class="front-face" src="img/5.svg" alt="5" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+    <div class="memory-card" data-framework="5">
+      <img class="front-face" src="img/5.svg" alt="5" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+
+    <div class="memory-card" data-framework="6">
+      <img class="front-face" src="img/6.svg" alt="6" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+    <div class="memory-card" data-framework="6">
+      <img class="front-face" src="img/6.svg" alt="6" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+
+    <div class="memory-card" data-framework="7">
+      <img class="front-face" src="img/7.svg" alt="7" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+    <div class="memory-card" data-framework="7">
+      <img class="front-face" src="img/7.svg" alt="7" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+
+    <div class="memory-card" data-framework="8">
+      <img class="front-face" src="img/8.svg" alt="8" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+    <div class="memory-card" data-framework="8">
+      <img class="front-face" src="img/8.svg" alt="8" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+
+    <div class="memory-card" data-framework="9">
+      <img class="front-face" src="img/9.svg" alt="9" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+    <div class="memory-card" data-framework="9">
+      <img class="front-face" src="img/9.svg" alt="9" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+
+    <div class="memory-card" data-framework="10">
+      <img class="front-face" src="img/10.svg" alt="10" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+    <div class="memory-card" data-framework="10">
+      <img class="front-face" src="img/10.svg" alt="10" />
+      <img class="back-face" src="img/face.svg" alt="Face" />
+    </div>
+  </section>
+<center>
+  <button name="replaybutton" id="buttonback" style="display:none" onclick="reload()">
+      НАЧАТЬ ЗАНОВО
+  </button>
+</center>
+
+
+</section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
